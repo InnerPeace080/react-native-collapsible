@@ -1,10 +1,10 @@
 {
   "name": "react-native-collapsible",
-  "version": "0.5.4",
+  "version": "0.7.0",
   "description": "Animated collapsible component for React Native using the Animated API. Good for accordions, toggles etc",
   "main": "Collapsible.js",
   "scripts": {
-    "test": "flow check"
+    "test": "eslint *.js"
   },
   "keywords": [
     "react-native",
@@ -30,7 +30,10 @@
     "url": "https://github.com/oblador/react-native-collapsible/issues"
   },
   "homepage": "https://github.com/oblador/react-native-collapsible",
-  "peerDependencies": {
-    "react-native": ">=0.8.0 || 0.8.0-rc || 0.8.0-rc.2 || 0.9.0-rc || 0.10.0-rc || 0.11.0-rc || 0.12.0-rc || 0.13.0-rc || 0.14.0-rc || 0.15.0-rc || 0.16.0-rc || 0.17.0-rc"
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-eslint": "^4.1.6",
+    "eslint": "^1.10.3",
+    "eslint-plugin-react": "^3.14.0"
   }
 }
